@@ -1,0 +1,154 @@
+body {
+  
+  /* Background */
+  background-color: rgb(241, 241, 241);
+  background-image: url("jd-strap_301dpi.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+div.block div{
+  
+    /* Font */
+  line-height: 25px;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div.notice {
+  
+  /* Positioning */
+  position: absolute;
+  z-index: 0;
+  left: -90px;
+  
+  /* Spacing */
+  margin-left: 50%;
+  margin-top: 60px;
+  padding-top: 4px;
+  
+  /* Dimensions */
+  width: 180px;
+  height: 2em;
+  
+  /* Background */
+  background-color: #ffe0e5;
+  border-radius: 8px 8px 0px 0px;
+  -moz-border-radius: 8px 8px 0px 0px;
+  -webkit-border-radius: 8px 8px 0px 0px;
+  
+  /* Font */
+  text-align: center;
+  font-size: 18px;
+}
+
+div.login {
+  
+  /* Positioning */
+  position: absolute;
+  z-index: 1;
+  left: -100px;
+  
+  /* Spacing */
+  margin-left: 50%;
+  margin-top: 3em;
+  padding: 20px;
+  
+  /* Dimensions */
+  width: 160px;
+  
+  /* Border */
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  
+  /* Background */
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: top center;
+  
+  /* Font */
+  font-weight: normal;
+  font-size: 20px;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  
+}
+
+input#meetingId {
+  
+  /* Dimensions */
+  width: 100%;
+  
+  /* Spacing */
+  margin-bottom: .5em;
+  padding: 2px 0px;
+  
+  /* Border */
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border: 1px solid #dfdfdf;
+  
+  /* Font */
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+input#submit {
+  
+  /* Dimensions */
+  width: 100%;
+
+  /* Font */
+  font-size: 20px;;
+  line-height: 25px;
+  font-weight: normal;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+  
+  /* Spacing */
+  padding: 4px 10px;
+  
+  /* Alignment */
+  vertical-align: middle;
+
+  /* Background */
+  background-image: linear-gradient(to bottom, rgb(147, 147, 147), rgb(122, 122, 122));
+  background-repeat: repeat-x;
+  background-color: rgb(122, 122, 122);
+
+  /* Borders */
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  border-image: none;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+input#submit:hover {
+  
+  /* Background */
+  background-image: linear-gradient(to bottom, rgb(104, 104, 104), rgb(103, 103, 103));
+  background-repeat: repeat-x;
+  background-color: rgb(103, 103, 103);
+
+  /* Cursor */
+  cursor: pointer;
+}
+input#submit:active {
+  
+  /* Background */
+  background-image: linear-gradient(to bottom, rgb(147, 147, 147), rgb(122, 122, 122));
+  background-repeat: repeat-x;
+  background-color: rgb(122, 122, 122);
+}
